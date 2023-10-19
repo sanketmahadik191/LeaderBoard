@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard Most Runs In WC</title>
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1>ICC WorldCup 2023</h1>
+        <h2>Most Runs</h2>
+        <form action="" autocomplete="on">
+            <input type="text" id="FirstName" placeholder="First Name">
+            <input type="text" id="lastName" placeholder="Last Name">
+            <input type="text" id="country" placeholder="Country">
+            <input type="number" id="score" placeholder="Player Score" min="0">
+            <button class="addPlayer">Add Player</button>
+        </form>
+        <p class="errorMessage">All fields are required*</p>
+        <div class="scoreBoard-container">
+            <div class="scoreboard">
+                <div>
+                    <p class="playerName">Rohit Sharma</p>
+                    <p class="main-time">Oct 19, 2023, 21:35:01</p>
+                </div>
+                <p class="player-country">India</p>
+                <p class="player-score">265</p>
+                <div class="scoreboard-btn-container">
+                    <button>+5</button>
+                    <button>-5</button><button>❌</button>
+                </div>
+            </div>
+            <div class="scoreboard">
+                <div>
+                    <p class="playerName">Virat Kohli</p>
+                    <p class="main-time">Oct 19, 2023, 22:05:35</p>
+                </div>
+                <p class="player-country">India</p>
+                <p class="player-score">259</p>
+                <div class="scoreboard-btn-container">
+
+                    <button>+5</button>
+                    <button>-5</button><button>❌</button>
+                </div>
+            </div>
+            <div class="scoreboard">
+                <div>
+                    <p class="playerName">Devon Conway</p>
+                    <p class="main-time">Oct 18, 2023, 22:15:35</p>
+                </div>
+                <p class="player-country">New Zealand</p>
+                <p class="player-score">249</p>
+                <div class="scoreboard-btn-container">
+
+                    <button>+5</button>
+                    <button>-5</button><button>❌</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
