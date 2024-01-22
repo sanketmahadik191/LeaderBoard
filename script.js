@@ -51,7 +51,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
 })
 
 
-//fuction buttons
+//fuction buttons f
 
 
 function activate(e) {
