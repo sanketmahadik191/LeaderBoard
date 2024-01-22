@@ -7,10 +7,12 @@
 
 body {
     font-family: 'Tilt Neon', sans-serif;
-    background-image: url(https://resources.pulse.icc-cricket.com/ICC/photo/2023/04/02/7f9cc289-6e33-4aa2-9221-062e8208e172/india-2023-logo.PNG);
+    background-image: url(https://cdn.magicdecor.in/com/2023/10/09152324/Cricket-Stadium-Wallpaper-for-Wall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #310072;
+    background-attachment: fixed;
+    background-color: #773232;
+    /* color: #ffffff; */
 }
 
 main {
@@ -19,7 +21,8 @@ main {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    /* color: rgb(0, 0, 0); */
 }
 
 h1 {
@@ -50,12 +53,13 @@ form {
 
 input {
     padding: 4px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-bottom: 2px dashed rgb(255, 255, 255);
     outline: none;
     background-color: transparent;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    background: #0800005d;
 }
 
 form button {
@@ -86,8 +90,8 @@ form button {
 }
 
 form button:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #f1dbaa 0 -3px 0 inset;
-    transform: translateY(-2px);
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e0a932 0 -3px 0 inset;
+    transform: translateY(-3px);
 }
 
 form button:active {
@@ -124,6 +128,13 @@ input::placeholder {
     border-radius: 10px;
 }
 
+.scoreBoard-container :hover {
+    transform: scale(1.05);
+    /* Increase size on hover */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Change background color on hover */
+}
+
 .playerName {
     font-weight: 700;
 }
@@ -151,5 +162,5 @@ input::placeholder {
     background: transparent;
     border-radius: 50%;
     border: 1px solid brown;
-    font-weight: 700;
+    font-weight: 800;
 }

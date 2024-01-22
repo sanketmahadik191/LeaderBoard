@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeaderBoard Most Runs In WC</title>
 
-
+    <!-- Linking the external stylesheet -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <!-- Main content container -->
     <main>
-        <h1>ICC WorldCup 2023</h1>
-        <h2>Most Runs</h2>
+        <!-- Main heading -->
+        <h1>Record for ODI Matches</h1>
+        <!-- Subheading for high scores -->
+        <h2>High Scores</h2>
+
+        <!-- Form for adding a new player -->
         <form action="" autocomplete="on">
             <input type="text" id="FirstName" placeholder="First Name">
             <input type="text" id="lastName" placeholder="Last Name">
@@ -21,48 +26,70 @@
             <input type="number" id="score" placeholder="Player Score" min="0">
             <button class="addPlayer">Add Player</button>
         </form>
+
+        <!-- Error message for empty fields -->
         <p class="errorMessage">All fields are required*</p>
+
+        <!-- Container for displaying the scoreboards -->
         <div class="scoreBoard-container">
+            <!-- Individual scoreboard entry -->
             <div class="scoreboard">
                 <div>
                     <p class="playerName">Rohit Sharma</p>
-                    <p class="main-time">Oct 21, 2023, 21:35:01</p>
+                    <p class="main-time">Jan 21, 2024, 21:35:01</p>
                 </div>
-                <p class="player-country">India</p>
-                <p class="player-score">265</p>
+                <p class="player-country">IND</p>
+                <p class="player-score">254</p>
                 <div class="scoreboard-btn-container">
-                    <button>+5</button>
-                    <button>-5</button><button>❌</button>
+                    <button>+𝟓</button>
+                    <button>-𝟓</button><button>❌</button>
                 </div>
             </div>
-            <div class="scoreboard">
-                <div>
-                    <p class="playerName">Virat Kohli</p>
-                    <p class="main-time">Oct 21, 2023, 22:05:35</p>
-                </div>
-                <p class="player-country">India</p>
-                <p class="player-score">259</p>
-                <div class="scoreboard-btn-container">
 
-                    <button>+5</button>
-                    <button>-5</button><button>❌</button>
-                </div>
+            <!-- Additional scoreboard entries -->
+            <!-- ... (repeat structure for each player) ... -->
+        </div>
+        <div class="scoreboard">
+            <div>
+                <p class="playerName">MJ Guptil</p>
+                <p class="main-time">Jan 21, 2024, 22:05:35</p>
             </div>
-            <div class="scoreboard">
-                <div>
-                    <p class="playerName">Devon Conway</p>
-                    <p class="main-time">Oct 21, 2023, 22:15:35</p>
-                </div>
-                <p class="player-country">New Zealand</p>
-                <p class="player-score">249</p>
-                <div class="scoreboard-btn-container">
+            <p class="player-country">NZ</p>
+            <p class="player-score">237</p>
+            <div class="scoreboard-btn-container">
 
-                    <button>+5</button>
-                    <button>-5</button><button>❌</button>
-                </div>
+                <button>+𝟓</button>
+                <button>-𝟓</button><button>❌</button>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div>
+                <p class="playerName">Virendra Sehwag</p>
+                <p class="main-time">Jan 21, 2024, 22:15:35</p>
+            </div>
+            <p class="player-country">IND</p>
+            <p class="player-score">219</p>
+            <div class="scoreboard-btn-container">
+
+                <button>+𝟓</button>
+                <button>-𝟓</button><button>❌</button>
+            </div>
+        </div>
+        <div class="scoreboard">
+            <div>
+                <p class="playerName">Chris Gayle</p>
+                <p class="main-time">Jan 21, 2024, 22:15:35</p>
+            </div>
+            <p class="player-country">WI</p>
+            <p class="player-score">215</p>
+            <div class="scoreboard-btn-container">
+
+                <button>+𝟓</button>
+                <button>-𝟓</button><button>❌</button>
             </div>
         </div>
     </main>
+    <!-- Including the external JavaScript file -->
     <script src="./script.js"></script>
 </body>
 
