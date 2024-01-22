@@ -9,13 +9,10 @@ body {
     font-family: 'Tilt Neon', sans-serif;
     background-image: url(https://cdn.magicdecor.in/com/2023/10/09152324/Cricket-Stadium-Wallpaper-for-Wall.jpg);
     background-size: cover;
-    <<<<<<< HEAD background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #773232;
     /* color: #ffffff; */
-    =======/* background-repeat: no-repeat; */
-    background-color: #310072;
-    >>>>>>>a1ec9e9104a53a2905cd6334476124f48a1f2917
 }
 
 main {
@@ -165,10 +162,5 @@ input::placeholder {
     background: transparent;
     border-radius: 50%;
     border: 1px solid brown;
-    <<<<<<< HEAD font-weight: 800;
+    font-weight: 800;
 }
-
-=======font-weight: 700;
-
-}
->>>>>>>a1ec9e9104a53a2905cd6334476124f48a1f2917
