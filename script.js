@@ -65,11 +65,15 @@ function createScoreBoardElement(firstName, lastName, country, score) {
     return scoreBoardElement;
 }
 
+<<<<<<< HEAD
 // Function to get current date and time
 function getCurrentDateTime() {
     let d = new Date();
     let month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
     let addZero = (i) => (i < 10 ? "0" + i : i);
+=======
+//fuction buttons f
+>>>>>>> a1ec9e9104a53a2905cd6334476124f48a1f2917
 
     return [
         `${month[d.getMonth()]} ${addZero(d.getDate())}, ${d.getFullYear()}`,
